@@ -91,9 +91,58 @@ nav a {
 /* Header-Baner styleing END */
 
 
+/* Features-section styleing ST */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.features-container {
+  display: flex;
+  align-items: center;
+  padding-left: 240px;
+  margin-top: 100px;
+}
 
+.iamge-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
 
+.iamge-container img {
+  width: 120%;
+  height: 100%;
+  padding-left: 30px;
+}
 
+.text-container {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.container-titel {
+  color: #131313;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.text-style-one {
+  color: #727272;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.text-style-two {
+  color: #FF900E;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.container-description {
+  color: #727272;
+  font-size: 1rem;
+  line-height: 20px;
+  }
 
 
 

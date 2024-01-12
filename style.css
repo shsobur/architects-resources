@@ -6,3 +6,31 @@
   font-family: 'Work Sans', sans-serif;
 }
 
+header {
+  background: rgba(255, 144, 14, 0.10);
+  padding: 50px 240px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nave-titel {
+  font-size: 2.8rem;
+}
+
+nav > ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #424242;
+}

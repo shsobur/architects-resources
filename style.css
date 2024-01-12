@@ -5,11 +5,24 @@
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
 }
+.btn-primary {
+  height: 65px;
+  width: 180px;
+  color: #FFF;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #FF900E;
+  border-radius: 8px;
+  border: none;
+  margin: 50px 0;
+}
 
 header {
   background: rgba(255, 144, 14, 0.10);
   padding: 50px 240px;
 }
+
+/* Nave-Bar styleing ST */
 
 nav {
   display: flex;
@@ -33,4 +46,28 @@ nav li {
 nav a {
   text-decoration: none;
   color: #424242;
+}
+
+/* Nave-Bar styleing END */
+
+/* Header-Baner styleing ST */
+
+.banar-container {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banar-titel {
+  color: #131313;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 200px;
+}
+
+.banar-description {
+  color: #727272;
+  font-size: 1rem;
+  line-height: 25px;
+  padding-top: 20px;
 }

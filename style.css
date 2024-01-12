@@ -5,8 +5,11 @@
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
 }
+
+
+/* Styleing Primary-button */
 .btn-primary {
-  height: 65px;
+  height: 60px;
   width: 180px;
   color: #FFF;
   font-size: 1.2rem;
@@ -16,6 +19,14 @@
   border: none;
   margin: 50px 0;
 }
+.btn-primary:hover {
+  background-color: #eb7e02;
+}
+.btn-primary:active {
+  background-color: #c16700;
+}
+/* Styleing Primary-button */
+
 
 header {
   background: rgba(255, 144, 14, 0.10);
@@ -36,11 +47,12 @@ nav {
 
 nav > ul {
   display: flex;
+  gap: 30px;
+  justify-content: center;
 }
 
 nav li {
   list-style: none;
-  margin-right: 30px;
 }
 
 nav a {
@@ -70,4 +82,76 @@ nav a {
   font-size: 1rem;
   line-height: 25px;
   padding-top: 20px;
+}
+
+.banar img {
+  width: 100%;
+}
+
+/* Header-Baner styleing END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media-Screen for Mobial */
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    padding-top: 20px;
+    gap: 20px;
+  }
+  .nave-titel {
+    font-size: 2.2rem;
+  }
+  .banar-titel {
+    font-size: 3rem;
+    margin-top: 100px;
+  }
+}
+
+
+/* Meida-Screen for tablet */
+
+@media screen and (min-width: 576px) and (max-width:1080px) {
+  header {
+    padding: 50px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    padding-top: 40px;
+  }
+  .banar-titel {
+    font-size: 3.5rem;
+    margin-top: 150px;
+  }
 }

@@ -112,12 +112,11 @@ main {
 .iamge-container img {
   width: 120%;
   height: 100%;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 .text-container {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 0 70px;
 }
 
 .container-titel {
@@ -144,6 +143,7 @@ main {
   line-height: 20px;
   }
 
+  /* Features-section styleing END */
 
 
 
@@ -184,6 +184,20 @@ main {
     font-size: 3rem;
     margin-top: 100px;
   }
+  .features-container {
+    flex-direction: column-reverse;
+    padding-left: 0px;
+  }
+  .iamge-container {
+    grid-template-columns:1fr;
+  }
+  .iamge-container img {
+    width: 100%;
+    padding: 10px;
+  }
+  .text-container {
+    padding: 0 20px;
+  }
 }
 
 
@@ -203,4 +217,18 @@ main {
     font-size: 3.5rem;
     margin-top: 150px;
   }
+  .features-container {
+    padding: 40px;
+  }
+  .iamge-container img {
+    width: 130%;
+  }
+  .text-container {
+    padding: 0 30px;
+    margin-left: 40px;
+  }
+  .container-titel, .text-style-one, .text-style-two  {
+    font-size: 2.5rem;
+  }
+
 }
